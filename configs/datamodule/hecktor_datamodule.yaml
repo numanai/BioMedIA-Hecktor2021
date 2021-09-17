@@ -1,0 +1,12 @@
+_target_: src.datamodules.hecktor_datamodule.HECKTORDataModule
+
+root_dir: ${work_dir}
+data_dir: ${data_dir} # data_dir is specified in config.yaml
+cache_dir: ${data_dir}data_cropped/ #updata the data path
+patch_size: 80
+batch_size: 16
+dataset_mean: 0.5732 
+dataset_std: 0.6079
+train_val_test_split: [176, 24, 24]
+num_workers: 10
+pin_memory: false
