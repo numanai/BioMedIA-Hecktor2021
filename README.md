@@ -20,7 +20,7 @@ Accurate prognosis of a tumor can help doctors provide a proper course of treatm
 Install dependencies
 ```yaml
 # clone project
-git clone https://github.com/YourGithubName/your-repo-name
+git clone https://github.com/numanai/BioMedIA-Hecktor2021
 cd your-repo-name
 
 # [OPTIONAL] create conda environment
